@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
@@ -38,11 +39,12 @@ public class PlayerController : MonoBehaviour {
 			placar ++;
 		}
 		if (other.gameObject.CompareTag ("Origin") && placar == 12) {
-			placar = 0;
+			/*placar = 0;
 			for (int i = 0; i < 12; i++) {
 				itens [i].SetActive (true);
 			}
-			origem.GetComponent<Renderer> ().material = oRed;
+			origem.GetComponent<Renderer> ().material = oRed;*/
+			SceneManager.LoadScene("MenuBase",LoadSceneMode.Single);
 		}
 		if (placar == 12) 
 		{
