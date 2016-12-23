@@ -32,11 +32,11 @@ public class PlayerController : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) 
 	{
-		if (other.gameObject.CompareTag ("Pick Up"))
+		if (other.gameObject.CompareTag ("Pick Up") || other.gameObject.CompareTag ("Image"))
 		{
 			other.gameObject.SetActive (false);
 			itens [placar] = other.gameObject;
-			placar ++;
+			if(other.gameObject.CompareTag ("Pick Up"))placar ++;
 		}
 		if (other.gameObject.CompareTag ("Origin") && placar == 12) {
 			/*placar = 0;
