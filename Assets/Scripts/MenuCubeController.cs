@@ -25,6 +25,21 @@ public class MenuCubeController : MonoBehaviour {
 				if (this.gameObject.CompareTag ("Phase005")) {
 					SceneManager.LoadScene ("Level5", LoadSceneMode.Single);
 				}
+				if (this.gameObject.CompareTag ("Phase006")) {
+					SceneManager.LoadScene ("Level6", LoadSceneMode.Single);
+				}
+				if (this.gameObject.CompareTag ("Phase007")) {
+					SceneManager.LoadScene ("Level7", LoadSceneMode.Single);
+				}
+				if (this.gameObject.CompareTag ("Phase008")) {
+					SceneManager.LoadScene ("Level8", LoadSceneMode.Single);
+				}
+				if (this.gameObject.CompareTag ("Phase009")) {
+					SceneManager.LoadScene ("Level9", LoadSceneMode.Single);
+				}
+				if (this.gameObject.CompareTag ("Phase010")) {
+					SceneManager.LoadScene ("Level10", LoadSceneMode.Single);
+				}
 			}
 		}
 	}
