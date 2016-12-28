@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour {
 
 	public float speed;
+	public int group;
 	private int placar = 0;
 	public GameObject origem;
 	public Material oRed, oGreen;
@@ -37,11 +38,8 @@ public class PlayerController : MonoBehaviour {
 			//Descrever o método de ganho de moedas
 		}
 		if (other.gameObject.CompareTag ("Origin")) {
-			SceneManager.LoadScene("MenuBase",LoadSceneMode.Single);
-		}
-		if (placar == 12) 
-		{
-			origem.GetComponent<Renderer> ().material = oGreen;
+			if(group==1)SceneManager.LoadScene("MenuBase",LoadSceneMode.Single);
+			if(group==2)SceneManager.LoadScene("Menu2",LoadSceneMode.Single);
 		}
 	}
 }
