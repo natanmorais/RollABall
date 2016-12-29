@@ -48,12 +48,14 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\L2PlayerController.cs" />
      <Compile Include="Assets\Scripts\Menu2Controller.cs" />
+     <Compile Include="Assets\Scripts\Menu3Controller.cs" />
      <Compile Include="Assets\Scripts\MenuCameraController.cs" />
      <Compile Include="Assets\Scripts\MenuCubeController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
-     <Compile Include="Assets\SetaBackController.cs" />
-     <Compile Include="Assets\SetaNextController.cs" />
+     <Compile Include="Assets\Scripts\SetaBackController.cs" />
+     <Compile Include="Assets\Scripts\SetaNextController.cs" />
+     <Compile Include="Assets\Scripts\TimerController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

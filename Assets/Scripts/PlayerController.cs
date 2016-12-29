@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour {
 
 	public float speed;
 	public int group;
-	private int placar = 0;
 	public GameObject origem;
 	public Material oRed, oGreen;
 

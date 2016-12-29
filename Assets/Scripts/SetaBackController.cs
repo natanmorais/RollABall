@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class SetaNextController : MonoBehaviour {
+public class SetaBackController : MonoBehaviour {
 	public int group;
 
 	void FixedUpdate () {
@@ -11,7 +11,8 @@ public class SetaNextController : MonoBehaviour {
 
 		if(Physics.Raycast(ray,out hit,100)){
 			if (hit.collider.gameObject == this.gameObject) {
-				if(group==1)SceneManager.LoadScene ("Menu2", LoadSceneMode.Single);
+				if(group==2)SceneManager.LoadScene ("MenuBase", LoadSceneMode.Single);
+				if(group==3)SceneManager.LoadScene ("Menu2", LoadSceneMode.Single);
 			}
 		}
 	}
