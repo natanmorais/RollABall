@@ -45,6 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\OriginChangerController.cs" />
+     <Compile Include="Assets\OriginChangerController2.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\L2PlayerController.cs" />
      <Compile Include="Assets\Scripts\Menu2Controller.cs" />

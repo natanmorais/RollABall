@@ -19,3 +19,5 @@ C:\Users\FireDestroyer\Documents\UnityProjects\RollABall\Temp\bin\Debug\UnityEng
 C:\Users\FireDestroyer\Documents\UnityProjects\RollABall\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\FireDestroyer\Documents\UnityProjects\RollABall\obj\Debug\Assembly-CSharp.dll
 C:\Users\FireDestroyer\Documents\UnityProjects\RollABall\obj\Debug\Assembly-CSharp.pdb
+C:\Users\FireDestroyer\Documents\UnityProjects\RollABall\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\FireDestroyer\Documents\UnityProjects\RollABall\Temp\bin\Debug\UnityEngine.Analytics.xml
