@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Menu3Controller.cs" />
      <Compile Include="Assets\Scripts\MenuCameraController.cs" />
      <Compile Include="Assets\Scripts\MenuCubeController.cs" />
+     <Compile Include="Assets\Scripts\MenuPrincipalController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\SetaBackController.cs" />
