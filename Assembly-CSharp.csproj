@@ -45,8 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\OriginChangerController.cs" />
-     <Compile Include="Assets\OriginChangerController2.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\L2PlayerController.cs" />
      <Compile Include="Assets\Scripts\Menu2Controller.cs" />
@@ -54,6 +52,16 @@
      <Compile Include="Assets\Scripts\MenuCameraController.cs" />
      <Compile Include="Assets\Scripts\MenuCubeController.cs" />
      <Compile Include="Assets\Scripts\MenuPrincipalController.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController10.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController2.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController3.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController4.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController5.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController6.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController7.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController8.cs" />
+     <Compile Include="Assets\Scripts\OriginChangerController9.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\SetaBackController.cs" />
